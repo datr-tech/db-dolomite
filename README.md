@@ -1,6 +1,7 @@
-## README: @datr.tech/api-dolomite
+## @datr.tech/db-dolomite
 
-> API for dolomite - 0.4.0
+> DB for dolomite - 0.3.1
+
 ---
 
 ### Install locally
@@ -8,32 +9,13 @@
 Install the package from GitHub using the following commands.
 
 ```bash
-git clone https://github.com/datr.tech/api-dolomite.git
+git clone https://github.com/datr.tech/db-dolomite.git
 ```
 
-Then install the required dependencies
+Then install the required dependencies.
 
 ```bash
-cd @datr.tech/api-dolomite
+cd @datr.tech/db-dolomite
+
 npm i
 ```
-#### Format
-
-Format code, config files and (when applicable) tests
-
-```bash
-npm run format
-```
-
-The formatting will be performed by Prettier, and the associated Prettier config can be found [here][./.prettierrc.json].
-
-#### Lint
-
-Lint code, config files and (when applicable) tests
-
-```bash
-npm run lint
-```
-
-The formatting will be performed by EsLint, and the associated config can be found from the following address [./eslint.config.mjs][./eslint.config.mjs].
-
