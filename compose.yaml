@@ -1,11 +1,14 @@
 services:
   db-dolomite:
     build: .
+    container_name: db-dolomite
     restart: always
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=${DB_ROOT_USER}
-      - MONGO_INITDB_ROOT_PASSWORD=${DB_ROOT_PASS}
+      - PUID=1000
+      - PGID=1000
       - DB_PORT=${DB_PORT}
       - DB_NAME=${DB_NAME}
     networks: 
       - net-dolomite
+    volumes:
+      - ./data/db:/data/db
