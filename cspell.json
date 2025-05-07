@@ -7,5 +7,5 @@
     }
   ],
   "version": "0.2",
-  "words": ["datr", "dolomite", "INITDB", "PGID", "PUID"]
+  "words": ["datr", "dolomite", "healthcheck", "INITDB", "PGID", "PUID"]
 }
